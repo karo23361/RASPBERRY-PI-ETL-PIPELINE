@@ -24,4 +24,7 @@ This project uses sample CSV files with randomly generated data. The datasets in
 
 > products.csv – product catalog
 
+Database Structure in Console:
+
+![image](https://github.com/user-attachments/assets/1d42c801-3dd7-41df-b965-e43e4afedfb3)
 
