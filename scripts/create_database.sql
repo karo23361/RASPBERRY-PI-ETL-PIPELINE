@@ -21,7 +21,7 @@ USE bronze_database;
 -- Table: Customers
 DROP TABLE IF EXISTS customers;
 CREATE TABLE customers (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT PRIMARY KEY,
     customer_id VARCHAR(50),
     first_name VARCHAR(100),
     last_name VARCHAR(100),
@@ -38,7 +38,7 @@ CREATE TABLE customers (
 -- Table: People
 DROP TABLE IF EXISTS people;
 CREATE TABLE people (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT PRIMARY KEY,
     user_id VARCHAR(50),
     first_name VARCHAR(100),
     last_name VARCHAR(100),
@@ -52,7 +52,7 @@ CREATE TABLE people (
 -- Table: Organizations
 DROP TABLE IF EXISTS organizations;
 CREATE TABLE organizations (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT PRIMARY KEY,
     organization_id VARCHAR(50),
     name VARCHAR(150),
     website VARCHAR(200),
@@ -66,7 +66,7 @@ CREATE TABLE organizations (
 -- Table: Leads
 DROP TABLE IF EXISTS leads;
 CREATE TABLE leads (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT PRIMARY KEY,
     account_id VARCHAR(50),
     lead_owner VARCHAR(100),
     first_name VARCHAR(100),
@@ -85,7 +85,7 @@ CREATE TABLE leads (
 -- Table: Products
 DROP TABLE IF EXISTS products;
 CREATE TABLE products (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT PRIMARY KEY,
     name VARCHAR(150),
     description TEXT,
     brand VARCHAR(100),
