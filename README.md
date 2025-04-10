@@ -25,7 +25,7 @@ This project uses sample CSV files with randomly generated data. The datasets in
 > products.csv – product catalog
 
 Link to Repo: https://github.com/datablist/sample-csv-files?tab=readme-ov-file#sample-csv-files
-For project purpose 100k version of data have been used. 
+
 
 Database Structure:
 
