@@ -27,7 +27,10 @@ This project uses sample CSV files with randomly generated data. The datasets in
 Link to Repo: https://github.com/datablist/sample-csv-files?tab=readme-ov-file#sample-csv-files
 For project purpose 100k version of data have been used. 
 
-Database Structure in Console:
+Database Structure:
 
 ![image](https://github.com/user-attachments/assets/1d42c801-3dd7-41df-b965-e43e4afedfb3)
 
+Data Loading:
+
+![image](https://github.com/user-attachments/assets/59216759-6efe-4395-abc7-021fdf09bf56)
