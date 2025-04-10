@@ -8,7 +8,7 @@
 
 TRUNCATE TABLE customers;
 
-LOAD DATA INFILE '/home/pi/customers-100000.csv'
+LOAD DATA LOCAL INFILE '/home/pi/customers-100000.csv'
 INTO TABLE customers
 FIELDS TERMINATED BY ','  
 LINES TERMINATED BY '\n'  
@@ -17,7 +17,7 @@ IGNORE 1 LINES
 
 TRUNCATE TABLE people;
 
-LOAD DATA INFILE '/home/pi/people-100000.csv'
+LOAD DATA LOCAL INFILE '/home/pi/people-100000.csv'
 INTO TABLE people
 FIELDS TERMINATED BY ',' 
 LINES TERMINATED BY '\n' 
@@ -26,7 +26,7 @@ IGNORE 1 LINES
 
 TRUNCATE TABLE organizations;
 
-LOAD DATA INFILE '/home/pi/organizations-100000.csv'
+LOAD DATA LOCAL INFILE '/home/pi/organizations-100000.csv'
 INTO TABLE organizations
 FIELDS TERMINATED BY ',' 
 LINES TERMINATED BY '\n' 
@@ -35,7 +35,7 @@ IGNORE 1 LINES
 
 TRUNCATE TABLE leads;
 
-LOAD DATA INFILE '/home/pi/leads-100000.csv'
+LOAD DATA LOCAL INFILE '/home/pi/leads-100000.csv'
 INTO TABLE leads
 FIELDS TERMINATED BY ',' 
 LINES TERMINATED BY '\n' 
@@ -44,7 +44,7 @@ IGNORE 1 LINES
 
 TRUNCATE TABLE products;
 
-LOAD DATA INFILE '/home/pi/products-100000.csv'
+LOAD DATA LOCAL INFILE '/home/pi/products-100000.csv'
 INTO TABLE products
 FIELDS TERMINATED BY ',' 
 LINES TERMINATED BY '\n' 
