@@ -46,7 +46,7 @@ CREATE TABLE people (
     email VARCHAR(150),
     phone VARCHAR(50),
     date_of_birth VARCHAR(20),
-    job_title VARCHAR(100)
+    job_title VARCHAR(255)
 );
 
 -- Table: Organizations
@@ -59,7 +59,7 @@ CREATE TABLE organizations (
     country VARCHAR(100),
     description TEXT,
     founded VARCHAR(4),
-    industry VARCHAR(100),
+    industry VARCHAR(255),
     number_of_employees VARCHAR(50)
 );
 
