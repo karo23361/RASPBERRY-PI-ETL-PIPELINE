@@ -34,3 +34,7 @@ Database Structure:
 Data Loading:
 
 ![image](https://github.com/user-attachments/assets/59216759-6efe-4395-abc7-021fdf09bf56)
+
+MySQL Workbench connection with RaspberryPi:
+
+![image](https://github.com/user-attachments/assets/200fb6da-8950-499f-9aa8-c8c46c09622a)
