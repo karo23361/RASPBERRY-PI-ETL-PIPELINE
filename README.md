@@ -14,11 +14,11 @@ PiLine is a simple data engineering project that shows how to move data from CSV
 📦 Data Sources
 This project uses sample CSV files with randomly generated data. The datasets include:
 
-> customers.csv – customer records
+- customers.csv – customer records
 
-> people.csv – user profiles
+- people.csv – user profiles
 
-> organizations.csv – company info
+-> organizations.csv – company info
 
 > leads.csv – sales lead data
 
