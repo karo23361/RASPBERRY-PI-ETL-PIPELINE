@@ -3,13 +3,13 @@
 📄 Project Description
 PiLine is a simple data engineering project that shows how to move data from CSV files into a data warehouse using multiple tools and systems. The goal is to build a small but realistic ETL (Extract, Transform, Load) pipeline using:
 
-> CSV files with fake business data (each 100k records)
+- CSV files with fake business data (each 100k records)
 
-> A MySQL database running on a Raspberry Pi
+- A MySQL database running on a Raspberry Pi
 
-> A SQL Server database as the main data warehouse
+- A SQL Server database as the main data warehouse
 
-> SSIS (SQL Server Integration Services) for data transfer and transformation
+- SSIS (SQL Server Integration Services) for data transfer and transformation
 
 📦 Data Sources
 This project uses sample CSV files with randomly generated data. The datasets include:
